@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  
+}
+
+.container{
+    padding-top: 14rem;
+    height: 100vh;
+    width: 100vw;
+    color: white; 
+    background-image:linear-gradient(to right, #ca29c9, #171e4d);
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+   
+}
+.btn1{
+    background-color: rgb(77, 77, 214);
+    width: 6.8rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: larger;
+    font-weight: 500;
+    border: none;
+}
+.btn1:hover{
+    cursor: pointer;
+    font-size: large;
+}
+.btn2{
+    border: none;
+    width: 6.8rem;
+    background-color: rgb(202, 35, 202);
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: larger;
+    font-weight: 500;
+}
+.btn2:hover{
+    cursor: pointer;
+    font-size: large;
+}
+.gradientcode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .8rem;
+    margin-top: 2.5rem;
+    
+}
+.gradientcode .p{
+    font-size: 1rem;
+}
+.gradientcode .text{
+    font-weight: 500;
+    font-size: large;
+    padding: .6rem;
+    background-color: rgba(254, 252, 252, 0.214);
+    color: black;
+    height: 6rem;
+    width: 25rem;
+    border-radius: .9rem;
+    border-left: .6rem solid rgb(148, 184, 198);
+
+}
+@media (max-width: 415px){
+    .gradientcode .text{
+        width: 20rem;
+    }
+}
