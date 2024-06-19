@@ -33,5 +33,5 @@ btn2.addEventListener("click", handleBtn2);
 
 text.addEventListener("click", () =>{
 navigator.clipboard.writeText(text.innerText)
-alert("Code has successfully coppied")
+alert("Code has been successfully copied")
 })
